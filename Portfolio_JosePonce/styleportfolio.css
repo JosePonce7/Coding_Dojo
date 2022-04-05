@@ -1,0 +1,119 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+    width: auto;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 41, 41);
+    justify-items: center;
+    align-self: center;
+    width: 1000px;
+    height: auto;
+    margin: 20px 100px;
+}
+
+#links{
+    position: relative;
+}
+
+#profilepic{
+    align-self: center;
+    height: 600px;
+    width: 900px;
+}
+
+#githublogo, #linkedinlogo, #gmaillogo{
+    display: inline;
+    height: 42px;
+    width: 42px;
+    margin-inline-start: 15px;
+    float: right;
+}
+
+.tech{
+    display: block;
+    margin: 20px;
+    justify-self: center;
+    width: 50%;
+    margin: 20px;
+    align-self: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 20px;
+    float: center;
+}
+
+h1{
+    color: rgb(126, 143, 111);
+    border-bottom: rgb(126, 143, 111) 4px;
+    border-bottom-style: solid;
+    text-align: center;
+}
+
+h2{
+    color: rgb(161, 159, 159);
+    margin-top: 30px;
+}
+
+table, th, td{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    height: 30px;
+    width: 500px;
+    background-color: cadetblue;
+}
+th{
+    background-color: cadetblue;
+}
+
+#titletechnologies{
+    color: cadetblue;
+    font-size: 16pt;
+    border-bottom: black;
+    margin-top: 40px;
+    text-decoration: underline cadetblue;
+}
+
+#contacto, #nombre, #email,#mensaje{
+    margin: 5px 5px;
+    color: rgb(219, 219, 219);
+    width: 90%;
+    border-radius: 5px;
+    resize: vertical;
+    box-sizing:border-box;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    border-radius: 4px;
+    align-items: center;
+    width: 70%;
+    padding: 5px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+#send{
+    background-color: rgb(126, 143, 111);
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+}

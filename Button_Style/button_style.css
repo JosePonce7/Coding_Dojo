@@ -1,0 +1,35 @@
+.container{
+    margin: 20px 20px;
+    margin-top: 50px;
+}
+
+#boton-search{
+    border: 1px solid rgb(61, 204, 190);
+    color: rgb(61, 204, 190);
+    border-radius: 20px;
+    height: 30px;
+    width: 140px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#boton-mas{
+    background-color: rgb(42, 218, 179);
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    font-size: 16pt;
+    color: whitesmoke;
+    border: 1px solid rgb(42, 218, 179);
+    margin: 10px;
+}
+
+#boton-create{
+    background-color: royalblue;
+    color: white;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 5px 5px black;
+    height: 30px;
+    width: 160px;
+}

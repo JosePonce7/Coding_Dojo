@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="stylelikes.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <div class="header2">Your Feed</div>
+        <div class="body">
+            <div class="left-block">
+                <img src="user-circle.png" alt="user-circle" id="proimg">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+            <div class="right-block">
+                <div class="card">
+                    <h3>Neil M</h3>
+                    <p id="likecount1">9 likes</p>
+                    <button onclick="addlike(0)" id="btn">Like</button>
+                    <p>I just set up this discord bot, let me know what you all think.</p>
+                    <a href="#">link</a>
+                </div>
+                <div class="card">
+                    <h3>Nicole K</h3>
+                    <p id="likecount2">12 likes</p>
+                    <button onclick="addlike(1)" id="btn">Like</button>
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+                <div class="card">
+                    <h3>Jim M</h3>
+                    <p id="likecount3">9 likes</p>
+                    <button onclick="addlike(2)" id="btn">Like</button>
+                    <p>I cant stop listening to the <a href="#">new album</a>, who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

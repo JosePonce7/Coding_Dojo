@@ -1,0 +1,52 @@
+body{
+    background-color: darkgray;
+    display: flex;
+}
+
+.container{
+    align-items: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 30pt;
+    text-align: center;
+}
+
+.bloque1{
+    background-color: darkcyan;
+    height: 250px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 25px;
+}
+
+.bloque2{
+    background-color: rgb(151, 68, 161);
+    height: 250px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 25px;
+}
+
+.bloque3{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 25px;
+}
+
+.catimg{
+    height: 200px;
+    margin: auto auto;
+}

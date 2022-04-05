@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleportfolio.css">
+    <title>Portfolio Jose Ponce</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Jose Ponce Cortes</h1>
+            <div id="links">
+                <h2>Portfolio
+                <a id="github" href="https://github.com/JosePonce7"><img src="src/github.png" alt="githublogo" id="githublogo"></a>
+                <a id="linkedin" href="https://www.linkedin.com/in/jos%C3%A9-ponce-549225158"><img src="src/logotipo-de-linkedin.png" alt="linkedinlogo" id="linkedinlogo"></a>
+                <a id="gmail" href="mailto:ponce900@gmail.com"><img src="src/email.png" alt="gmaillogo" id="gmaillogo"></a>
+                </h2>
+            </div>
+        <img src="src/DSC01431.JPG" alt="jpprofilepic" id="profilepic">
+        <div class="tech">
+            <p id="titletechnologies">Technologies</p>
+            <table>
+                <thead>
+                    <tr id="tech">
+                        <th>Front-End</th>
+                        <th>Python</th>
+                        <th>JavaScript</th>
+                        <th>Database</th>
+                        <th>Concepts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Django</td>
+                        <td>Express</td>
+                        <td>MySQL</td>
+                        <td>AJAX</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>Flask</td>
+                        <td>MongoDB</td>
+                        <td>Mongoose</td>
+                        <td>OPP</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td>Unittest</td>
+                        <td>React</td>
+                        <td></td>
+                        <td>REST</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="contactform">
+            <form action="Contacto" id="contacto">Contacto</form>
+            <label for="nombre" id="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="email" id="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="mensaje" id="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" placeholder="comentario..." style="height: 100px;"></textarea>
+            <input type="submit" value="Enviar Mensaje" id="send">
+        </div>
+    </div>
+</body>
+</html>

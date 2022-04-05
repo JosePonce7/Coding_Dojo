@@ -1,0 +1,22 @@
+
+body{
+    background-color: rgb(98, 173, 148);
+}
+#dojo {
+    width: 600px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ninja{
+    height: 180px;
+    width: 200px;
+}
+
+h1{
+    font-size: 38pt;
+    align-items: center;
+}

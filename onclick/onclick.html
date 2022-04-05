@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleonclick.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="navbar">Dojonary</h1>
+            <input type="text" placeholder="Search" class="search-bar">
+            <button onclick="logout(this)" class="btn">Login</button>
+        </div>
+
+        <div class="content">
+            <div class="left-block">
+                <div class="entry">
+                    <div class="diccentry">
+                        <h2>Ninja</h2>
+                        <img src="pronunciation ninja.png" alt="pronunciacion ninja">
+                        <em><p>noun</p></em>
+                        <ul>
+                            <li>Plural:<em>ninjas</em></li>
+                        </ul>
+                        <button onclick="alert('Ninja was liked')" class="likes">13 likes</button>
+                    </div>
+                    <div class="programmer">
+                        <h3>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="">ninjutsu</a></h3>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="diccentry">
+                        <h2>Ninja</h2>
+                        <img src="pronunciation ninja.png" alt="pronunciacion ninja">
+                        <em><p>noun</p></em>
+                        <ul>
+                            <li>Plural:<em>ninjas</em></li>
+                        </ul>
+                        <button onclick="alert('Ninja was liked')" class="likes">37 likes</button>
+                    </div>
+                    <div class="programmer">
+                        <h3>A <a href="">programmer</a> who breaks down with <a href="">zen</a>-like focus</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-block">
+                <div class="rightentry">
+                    <h1>
+                        Dojonary is defined by YOU
+                    </h1>
+                    <div>
+                        <button onclick="hide(this)" class="add">Add definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="onclick.js"></script>
+</html>

@@ -1,0 +1,39 @@
+html{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(132, 202, 136);
+    justify-content: center;
+    align-items: center;
+    margin: 10px 200px 0px;
+    border: 2px solid rgb(34, 100, 34);
+    border-radius: 5px;
+}
+
+h1{
+    color: rgb(255, 253, 144);
+    font-size: 28pt;
+    margin-right: 300px;
+}
+
+.display{
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    height: 400px;
+    margin: 0px 200px;
+    background-color: rgb(180, 240, 240);
+}
+
+.btn{
+    background-color: rgb(238, 155, 88);
+    color: white;
+    border: 1px solid black;
+    margin: 25px;
+    box-shadow: 5px 5px black;
+    height: 40px;
+    width: 140px;
+    font-size: 12pt;
+    cursor: pointer;
+}

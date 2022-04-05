@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Registro</h1>
+        <form action="Registro">
+            <div>
+                <label class="form-label" for=name>Nombre</label>
+                <input type="text" placeholder="Ej. Juan" name="nombre">
+            </div>
+            <div>
+                <label class="form-label" for="Apellido">Apellido</label>
+                <input type="text" placeholder="Ej. Perez" name="apellido">
+            </div>
+            <div>
+                <label class="form-label" for=Email>Email</label>
+                <input type="email" placeholder="juanp@mail.com" name="Email">
+            </div>
+            <div>
+                <label class="form-label" for=name>Contrasena</label>
+                <input type="password" placeholder="" name="Contrasena">
+            </div>
+            <div>
+                <label class="form-label" for=name>Confirmar Contrasena</label>
+                <input type="password" placeholder="" name="Confirmar-contrasena">
+            </div>
+            <div>
+                <label class="form-label" for="Fecha-Nacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="Fecha-Nacimiento">
+            </div>
+            <div id="genero">
+                <p class="form-label">Genero:</p>
+                <label class="title">Masculino</label>
+                <input type="radio" id="Masculino" name="Masculino" value="genero">
+                <label class="title">Femenino</label>
+                <input type="radio" id="Femenino" name="Femenino" value="genero">
+                <label class="title">No-Binario</label>
+                <input type="radio" id="No-Binario" name="No-Binario" value="genero">
+                <label class="title">Prefiero no responder</label>
+                <input type="radio" id="No-respuesta" name="No-respuesta" value="genero">
+            </div>
+            <div>
+                <label for="descripcion" class="form-label">Descripcion:</label>
+                <textarea name="descripcion" class="text-area"></textarea>
+            </div>
+            <div>
+                <label class="form-label" for=favorite-languages>Lenguaje Favorito</label>
+                <select name="favorite-languages">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Phython">Phython</option>
+                    <option value="Java">Java</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="accept" id="accept">
+                <label for="accept">Si, recibir notificaciones</label>
+            </div>
+            <div>
+                <input type="submit" value="Crear Cuenta">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
