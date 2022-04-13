@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NewComponent from './components';
 
 class Header extends Component {
     render() {
@@ -19,6 +20,7 @@ class Header extends Component {
                 <li>
                   Work
                 </li>
+                <NewComponent/>
             </div>
         );
     }
